@@ -1,0 +1,36 @@
+li {
+    list-style-type: none;
+
+}
+
+ul {
+    padding: 0;
+}
+
+.contactCard {
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.name {
+    font-weight: 600;
+    display: flex;
+    gap: 5px;
+}
+
+.number {
+    font-weight: 600;
+    display: flex;
+    gap: 5px;
+}
+
+.button {
+    height: 30px;
+}
